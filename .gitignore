@@ -194,3 +194,5 @@ temp/
 ._*
 .Spotlight-V100
 .Trashes
+
+db.sqlite3
