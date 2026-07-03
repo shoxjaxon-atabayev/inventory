@@ -10,7 +10,7 @@ def login_page(request):
     if request.method == 'POST':
         forms = LoginForm(request.POST)
         if forms.is_valid():
-            
+            user = forms.cleaned_data.get('user')
             if user:
                 login(request, user)
                 return redirect('dashboard')
