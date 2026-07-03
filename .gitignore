@@ -49,3 +49,148 @@ htmlcov/
 # IDE files
 *.sublime-project
 *.sublime-workspace
+
+# Database backups
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Compiled files
+*.pyc
+*.pyo
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Local environment
+local_settings.py
+.env.local
+.env.*.local
+
+# Node (if using frontend build tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Celery
+celerybeat-schedule
+
+# Debug
+.pdb
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# SublimeText
+*.sublime-project
+*.sublime-workspace
+
+# Rope
+.ropeproject/
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# Mac
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+.directory
+
+# Windows
+desktop.ini
+$RECYCLE.BIN/
+
+# Project specific
+staticfiles/
+media/*
+!media/.gitkeep
+*.sqlite3
+db.sqlite3-journal
+
+# Environment files
+.env
+.env.*.local
+.env.local
+.env.production.local
+
+# IDE specific
+.vscode/settings.json
+.vscode/extensions.json
+
+# Temporary
+tmp/
+temp/
+.tmp/
+*.tmp
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
